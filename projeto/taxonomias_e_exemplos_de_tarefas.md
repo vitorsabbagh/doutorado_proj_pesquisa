@@ -2,9 +2,10 @@
 
 ### Análise Temporal
 
-* Como foi o teste de pressão após a 2a operação de cimentação durante a perfuração do poço X?
-* ...
-* ...
+* Como foi o teste de pressão após a 2a operação de cimentação durante a perfuração do poço X
+  * Raciocínio: é necessário encontrar as operações de cimentação, localizar a 2a, ler os respectivos DDRs e indicar como foi o teste de pressão.
+* Foram realizadas operações de circulação ou condicionamento do poço X entre o término da perfuração da fase de 16 1/2" e a retirada?
+  * Raciocínio: é necessário localizar o término da perfuração da fase de 16 1/2", localizar o fim da retirada e aferir se houve condicionamento no período.
 
 ### Análise Comparativa
 

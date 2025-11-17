@@ -1,6 +1,6 @@
-### 1. Título Provisório
+### 1. Título
 
-**Mapeando a Fronteira Irregular: Uma Análise Experimental da Capacidade de Agentes Baseados em LLM em Tarefas Complexas de Engenharia de Poços Offshore**
+**Mapeando a Fronteira Irregular: Uma Análise Experimental da Capacidade de Agentes Baseados em LLM em Tarefas de Engenharia de Poços**
 
 *(Mapping the Jagged Frontier: An Experimental Analysis of LLM-Based Agent Capabilities in Complex Offshore Well Engineering Tasks)*
 
@@ -38,7 +38,7 @@ Mapear e caracterizar a fronteira irregular de capacidade de agentes de LLM no d
 
 1. **OE1:** Desenvolver uma taxonomia de tarefas representativas da construção de poços offshore, classificadas por tipo de cognição e complexidade.
 2. **OE2:** Projetar e implementar um *benchmark* experimental baseado nesta taxonomia, com métricas de avaliação e *ground truth* definidos por especialistas.
-3. **OE3:** Avaliar sistematicamente diferentes arquiteturas de agentes de LLM (ex: GPT-4o, Claude 3, Llama 3 com diferentes *frameworks* de agência) neste *benchmark*.
+3. **OE3:** Avaliar sistematicamente diferentes arquiteturas de agentes de LLM (ex: GPT-5, Claude 4, Llama 4 com diferentes *frameworks* de agentes) neste *benchmark*.
 4. **OE4:** Analisar os resultados para construir o "mapa" da fronteira irregular, correlacionando tipos de tarefa com o desempenho dos agentes.
 5. **OE5:** Propor um *framework* de decisão para a implantação segura de agentes na indústria de O&G, baseado nas descobertas.
 
@@ -48,16 +48,16 @@ Este projeto possui relevância em três eixos:
 
 1. **Contribuição para a Ciência da Computação (Teórica):** Estende a teoria da "Fronteira Irregular" do campo de Interação Humano-Computador (HCI) para o campo de Agentes Autônomos. Além disso, critica e avança o estado da arte em *benchmarking* de agentes, saindo de tarefas genéricas para domínios industriais complexos.
 2. **Contribuição para a Indústria de O&G (Prática):** Fornece o primeiro estudo rigoroso sobre o que agentes de IA podem (e, crucialmente, *não podem*) fazer com segurança na engenharia de poços. Isso desbloqueia ganhos de eficiência (em "picos") e previne falhas catastróficas (em "vales").
-3. **Originalidade:** A intersecção de LLM-Agentes, a teoria da "Jagged Frontier" e o domínio de O&G *onshore/offshore* é inteiramente nova na literatura.
+3. **Originalidade:** A intersecção de Agentes LLM, a teoria da "Jagged Frontier" e o domínio de O&G *onshore/offshore* é inteiramente nova na literatura.
 
-### 5. Fundamentação Teórica (Revisão da Literatura)
+### 5. Fundamentação Teórica
 
 A tese será fundamentada em quatro pilares:
 
 1. **Agentes Baseados em LLM:** Arquiteturas e paradigmas (RAG, ReAct, CoT, Multi-Agentes). Como eles funcionam, planejam e usam ferramentas.
 2. **Avaliação de Agentes (Benchmarking):** Estado da arte (ex: AgentBench, GAIA, MT-Bench). Análise de suas limitações para tarefas industriais/engenharia.
 3. **Produtividade e Limites da IA:** O *paper* seminal de Brynjolfsson, Mollick, et al. (2023) sobre a "Fronteira Irregular".
-4. **Engenharia de Poços e IA:** Aplicações atuais de *machine learning* em O&G (ex: manutenção preditiva, análise sísmica) e a lacuna existente na aplicação de *agentes generativos* para planejamento operacional.
+4. **Engenharia de Poços e IA:** Aplicações atuais de machine learning em O&G e a lacuna existente na aplicação de *agentes generativos* para atividades diversas do setor.
 
 ### 6. Metodologia Proposta
 
@@ -65,12 +65,12 @@ Este projeto empregará uma **metodologia de pesquisa experimental quantitativa 
 
 **Fase 1: Definição do Domínio e Taxonomia de Tarefas (OE1)**
 
-* **Fonte de Dados:** Análise documental de Manuais de Engenharia de Perfuração, Procedimentos Operacionais Padrão (POPs), e Relatórios Diários de Perfuração (DDRs/Boletins Diários de Operação - BDOs).
+* **Fonte de Dados:** Análise documental de Normas Técnicas, Padrões Operacionais, Relatórios de Situação Operacional, Lições Aprendidas, Alertas Técnicos e Relatórios Diários de Perfuração (DDRs/Boletins Diários de Operação - BDOs).
 * **Amostragem:** Criação de um *dataset* de 50-100 tarefas representativas.
 * **Classificação (Taxonomia):** As tarefas serão classificadas por eixos:
-  * *Tipo de Ação:* Extração de Informação, Síntese, Diagnóstico, Planejamento, Verificação de Conformidade.
-  * *Domínio de Conhecimento:* Geologia, Fluidos, Mecânica, Regulação.
-  * *Complexidade:* Nível de raciocínio causal, temporal e espacial exigido.
+  * [EXEMPLOS HIPOTETICOS] *Tipo de Ação:* Extração de Informação, Síntese, Diagnóstico, Planejamento, Verificação de Conformidade.
+  * [EXEMPLOS HIPOTETICOS] *Domínio de Conhecimento:* Geologia, Fluidos, Mecânica, Regulação.
+  * [EXEMPLOS HIPOTETICOS] *Complexidade:* Nível de raciocínio causal, temporal e espacial exigido.
 
 **Fase 2: Design do Benchmark Experimental (OE2)**
 
