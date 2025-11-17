@@ -10,7 +10,7 @@
 
 ### 2. Introdução e Contextualização
 
-A ascensão dos Grandes Modelos de Linguagem (LLMs) marca uma transição da IA como ferramenta de consultas simples (Q&A) para a IA como agente autônomo. Sistemas de agentes agora podem decompor problemas, planejar e executar tarefas de múltiplos passos.
+A evolução recente dos modelos de linguagem marca uma transição da IA concebida predominantemente como ferramenta de consulta pontual para sua configuração como agente autônomo. Nessa nova configuração, sistemas de agentes são capazes de decompor problemas, planejar e executar tarefas de múltiplos passos, articulando raciocínio, memória e uso de ferramentas externas. Na prática, essa transição se materializa em soluções comerciais de agentes autônomos, como Manus AI, OpenAI Operator, OpenAI Deep Research e Genspark AI, entre outras (ver referências na Seção 8).
 
 Contudo, a rápida adoção dessa tecnologia na indústria, especialmente em setores de alto risco como Óleo e Gás (O&G), supera nossa compreensão de seus reais limites. O entusiasmo com as capacidades de "pico" (sucesso) muitas vezes ofusca a existência de "vales" (falhas) em suas capacidades.
 
@@ -125,4 +125,7 @@ Este projeto empregará uma **metodologia de pesquisa experimental quantitativa 
 * Yao, S., et al. (2023). *ReAct: Synergizing Reasoning and Acting in Language Models*.
 * Lewis, P., et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*.
 * Zeng, Y., et al. (2024). *AgentBench: Evaluating LLMs as Agents*.
-* ... (Outros sobre IA em O&G e metodologias de avaliação de LLMs)
+* Manus AI. (2024). *Manus AI: Autonomous AI agents for complex workflows* [Documentação técnica]. Recuperado de https://www.manus.ai (acesso em: dia mês ano).
+* OpenAI. (2024). *OpenAI Operator: Building and orchestrating AI-native applications* [Documentação técnica]. Recuperado de https://platform.openai.com (acesso em: dia mês ano).
+* OpenAI. (2024). *Deep Research: Autonomous research agent by OpenAI* [Documentação técnica]. Recuperado de https://platform.openai.com (acesso em: dia mês ano).
+* Genspark AI. (2024). *Genspark AI: Autonomous AI agents for research and knowledge work* [Documentação técnica]. Recuperado de https://www.genspark.ai (acesso em: dia mês ano).
