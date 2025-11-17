@@ -1,3 +1,7 @@
+## Projeto de Pesquisa para Doutorado
+
+**Autor:** Vitor Brandão Sabbagh
+
 ### 1. Título
 
 **Mapeando a Fronteira Irregular: Uma Análise Experimental da Capacidade de Agentes Baseados em LLM em Tarefas de Engenharia de Poços**
