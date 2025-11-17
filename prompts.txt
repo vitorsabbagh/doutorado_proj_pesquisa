@@ -1,0 +1,13 @@
+vc conhece este paper? Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality
+
+Me ajude a inicar meu projeto de pesquisa de doutorado. Será na computacao, na area de agentes baseados em Llm.
+Quero explorar o conceito de "Fronteira Irregular" para o cenário de agentes realizando tarefas com algum nível de complexidade, que exige ações em etapas. Quero investigar quais tarefas, em especial em um domínio específico como o de construção de poços offshore na área de O&G, os agentes conseguem realizar com sucesso, e quais não conseguem.
+
+
+Algumas tarefas que enxergo potencial aqui no trabalho, para trabalharmos na taxonomia:
+
+1 - Busca de informações que estão explícitas ou implícitas em documentos ou registros (já temos RAGs simples que fazem isso).Exemplos:
+    - De acordo com o contrato de perfuração, é obrigatório o embarque de ferramentas backup pela empresa contratada?
+    - Cite os padrões de execução relevantes para uma operação cimentação de revestimento em poço.   
+    
+2 - Análises temporais: consultas que dependem 

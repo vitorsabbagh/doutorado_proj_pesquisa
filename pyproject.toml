@@ -1,0 +1,22 @@
+[project]
+name = "doutorado-proj-pesquisa"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Vitor Brandão Sabbagh",email = "sabbagh@petrobras.com.br"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pymupdf (>=1.26.6,<2.0.0)",
+    "pdfminer-six (>=20251107,<20251108)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+arxiv-mcp-server = "^0.3.1"
+
