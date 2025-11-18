@@ -12,17 +12,17 @@
 
 A evolução recente dos modelos de linguagem marca uma transição da IA concebida predominantemente como ferramenta de consulta pontual para sua configuração como agente autônomo. Nessa nova configuração, sistemas de agentes são capazes de decompor problemas, planejar e executar tarefas de múltiplos passos, articulando raciocínio, memória e uso de ferramentas externas. Na prática, essa transição se materializa em soluções comerciais de agentes autônomos, como Manus AI, OpenAI Operator, OpenAI Deep Research e Genspark AI, entre outras (ver referências na Seção 8).
 
-Contudo, a rápida adoção dessa tecnologia na indústria, especialmente em setores de alto risco como Óleo e Gás (O&G), supera nossa compreensão de seus reais limites. O entusiasmo com as capacidades de "pico" (sucesso) muitas vezes ofusca a existência de "vales" (falhas) em suas capacidades.
+Contudo, a rápida adoção dessa tecnologia na indústria, especialmente em setores de alto risco como Óleo e Gás (O&G), supera nossa compreensão de seus reais limites. O entusiasmo com as capacidades de "pico" (sucesso) muitas vezes ofusca a existência de "vales" (falhas).
 
-O influente estudo de Mollick et al. (2023) com o BCG introduziu o conceito de "Fronteira Tecnológica Irregular" (Jagged Frontier) para descrever como o desempenho da IA é irregular, alternando entre picos de competência super-humana e vales de falha. No entanto, este estudo focou na produtividade de *humanos usando IA* em tarefas de consultoria. [DETALHAR TAREFAS]
+O influente estudo de Dell'Acqua et al. (2023) com o BCG (Boston Consulting Group) introduziu o conceito de "Fronteira Tecnológica Irregular" (Jagged Frontier) para descrever como o desempenho da IA é irregular, alternando entre picos de competência super-humana e vales de falha. No entanto, este estudo focou na produtividade de *humanos usando IA* em tarefas de consultoria.
 
-**A lacuna que este projeto aborda é:** a fronteira irregular para *agentes autônomos* em domínios de *engenharia de alta complexidade* permanece desconhecida. Não sabemos quais tarefas na construção de poços de petróleo (um domínio em que falhas podem custar vidas e/ou centenas de milhões de dólares) estão nos "picos" e quais estão nos "vales".
+A lacuna que este projeto busca abordar é a falta de conhecimento a respeito da dita fronteira irregular para agentes autônomos em domínios de engenharia de alta complexidade . Não se sabe que tipo de tarefas compreendidas na construção de poços de petróleo (um domínio em que falhas podem frequentemente custar vidas e/ou prejuízos materiais relevantes) estariam nos "picos" e quais estariam nos "vales" de performance e assertividade das ferramentas.
 
 ### 3. Problema de Pesquisa e Objetivos
 
 #### Problema Central
 
-A implantação de agentes de LLM em atividades diversas de O&G é dificultada pela falta de um mapa de risco-capacidade. As métricas de *benchmarks* genéricos (ex: MMLU, AgentBench) [LER, DETALHAR E CITAR] não capturam as nuances de tarefas de engenharia do mundo real, que envolvem dados ruidosos, raciocínio físico e adesão estrita a normas de segurança.
+A implantação de agentes de LLM em atividades diversas de O&G é dificultada pela falta de um mapa de risco-capacidade. As métricas de *benchmarks* genéricos (ex: MMLU, AgentBench) não capturam as nuances de tarefas de engenharia do mundo real, que envolvem dados ruidosos, raciocínio físico e adesão estrita a normas de segurança.
 
 #### Pergunta Principal de Pesquisa (P1)
 
@@ -42,7 +42,7 @@ Mapear e caracterizar a fronteira irregular de capacidade de agentes de LLM no d
 
 1. **OE1:** Desenvolver uma taxonomia de tarefas representativas da construção de poços offshore, classificadas por tipo de cognição e complexidade.
 2. **OE2:** Projetar e implementar um *benchmark* experimental baseado nesta taxonomia, com métricas de avaliação e *ground truth* definidos por especialistas.
-3. **OE3:** Avaliar sistematicamente diferentes arquiteturas de agentes de LLM (ex: GPT-5, Claude 4, Llama 4 com diferentes *frameworks* de agentes) neste *benchmark*.
+3. **OE3:** Avaliar sistematicamente diferentes arquiteturas de agentes de LLM neste *benchmark*.
 4. **OE4:** Analisar os resultados para construir o "mapa" da fronteira irregular, correlacionando tipos de tarefa com o desempenho dos agentes.
 5. **OE5:** Propor um *framework* de decisão para a implantação segura de agentes na indústria de O&G, baseado nas descobertas.
 
@@ -60,7 +60,7 @@ A tese será fundamentada em quatro pilares:
 
 1. **Agentes Baseados em LLM:** Arquiteturas e paradigmas (RAG, ReAct, CoT, Multi-Agentes). Como eles funcionam, planejam e usam ferramentas.
 2. **Avaliação de Agentes (Benchmarking):** Estado da arte (ex: AgentBench, GAIA, MT-Bench). Análise de suas limitações para tarefas industriais/engenharia.
-3. **Produtividade e Limites da IA:** O *paper* seminal de Brynjolfsson, Mollick, et al. (2023) sobre a "Fronteira Irregular".
+3. **Produtividade e Limites da IA:** O *paper* seminal de Dell'Acqua et al. (2023) sobre a "Fronteira Irregular".
 4. **Engenharia de Poços e IA:** Aplicações atuais de machine learning em O&G e a lacuna existente na aplicação de *agentes generativos* para atividades diversas do setor.
 
 ### 6. Metodologia Proposta
@@ -70,11 +70,11 @@ Este projeto empregará uma **metodologia de pesquisa experimental quantitativa 
 **Fase 1: Definição do Domínio e Taxonomia de Tarefas (OE1)**
 
 * **Fonte de Dados:** Análise documental de Normas Técnicas, Padrões Operacionais, Relatórios de Situação Operacional, Lições Aprendidas, Alertas Técnicos e Relatórios Diários de Perfuração (DDRs/Boletins Diários de Operação - BDOs).
-* **Amostragem:** Criação de um *dataset* de 50-100 tarefas representativas.
+* **Amostragem:** Criação de um *dataset* de 20-40 tarefas representativas.
 * **Classificação (Taxonomia):** As tarefas serão classificadas por eixos:
-  * [EXEMPLOS HIPOTETICOS] *Tipo de Ação:* Extração de Informação, Síntese, Diagnóstico, Planejamento, Verificação de Conformidade.
-  * [EXEMPLOS HIPOTETICOS] *Domínio de Conhecimento:* Geologia, Fluidos, Mecânica, Regulação.
-  * [EXEMPLOS HIPOTETICOS] *Complexidade:* Nível de raciocínio causal, temporal e espacial exigido.
+  * *Tipo de Ação:* Extração de Informação, Síntese, Diagnóstico, Planejamento, Verificação de Conformidade.
+  * *Domínio de Conhecimento:* Geologia, Fluidos, Mecânica, Regulação.
+  * *Complexidade:* Nível de raciocínio causal, temporal e espacial exigido.
 
 **Fase 2: Design do Benchmark Experimental (OE2)**
 
@@ -84,12 +84,12 @@ Este projeto empregará uma **metodologia de pesquisa experimental quantitativa 
 
 **Fase 3: Execução Experimental (OE3)**
 
-* **Variáveis Independentes:** Arquitetura do Agente (Ex: Baseline GPT-4o, RAG c/ base de POPs, Agente ReAct).
+* **Variáveis Independentes:** Arquitetura do Agente.
 * **Variáveis Dependentes (Métricas):**
   1. *Taxa de Sucesso Binário:* Completou a tarefa com sucesso?
   2. *Qualidade da Resposta:* Avaliação cega (1-5) por SMEs.
   3. *Eficiência:* Custo (tokens), passos de raciocínio.
-  4. *Robustez:* O agente "alucina" ou falha graciosamente?
+  4. *Robustez:* O agente "alucina" ou falha?
 
 **Fase 4: Análise e Mapeamento da Fronteira (OE4, OE5)**
 
@@ -121,11 +121,11 @@ Este projeto empregará uma **metodologia de pesquisa experimental quantitativa 
 
 ### 8. Referências Bibliográficas Preliminares
 
-* Mollick, E., & Brynjolfsson, E., et al. (2023). *Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality*. HBS Working Paper.
+* Dell'Acqua, Fabrizio, et al. (2023). *Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality*. Harvard Business School.
 * Yao, S., et al. (2023). *ReAct: Synergizing Reasoning and Acting in Language Models*.
 * Lewis, P., et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*.
 * Zeng, Y., et al. (2024). *AgentBench: Evaluating LLMs as Agents*.
-* Manus AI. (2024). *Manus AI: Autonomous AI agents for complex workflows* [Documentação técnica]. Recuperado de https://www.manus.ai (acesso em: dia mês ano).
-* OpenAI. (2024). *OpenAI Operator: Building and orchestrating AI-native applications* [Documentação técnica]. Recuperado de https://platform.openai.com (acesso em: dia mês ano).
-* OpenAI. (2024). *Deep Research: Autonomous research agent by OpenAI* [Documentação técnica]. Recuperado de https://platform.openai.com (acesso em: dia mês ano).
-* Genspark AI. (2024). *Genspark AI: Autonomous AI agents for research and knowledge work* [Documentação técnica]. Recuperado de https://www.genspark.ai (acesso em: dia mês ano).
+* Manus AI. (2024). *Manus AI: Autonomous AI agents for complex workflows*. Recuperado de https://www.manus.ai.
+* OpenAI. (2024). *OpenAI Operator: Building and orchestrating AI-native applications*. Recuperado de https://platform.openai.com.
+* OpenAI. (2024). *Deep Research: Autonomous research agent by OpenAI*. Recuperado de https://platform.openai.com.
+* Genspark AI. (2024). *Genspark AI: Autonomous AI agents for research and knowledge work*. Recuperado de https://www.genspark.ai.
