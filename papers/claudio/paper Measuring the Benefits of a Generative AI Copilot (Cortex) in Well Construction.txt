@@ -1,0 +1,308 @@
+Measuring the Benefits of a Generative AI Copilot (Cortex) in Well Construction: A Comparative Study within Petrobras 
+ 
+
+CONTEXT AND THE CORTEX PROJECT 
+
+Cortex is a disruptive innovation in knowledge management for the oil, gas, and energy sectors, developed by Petrobras in collaboration with leading Brazilian universities (PUC-Rio and UNESP) and technology companies (Infotec, Atos, and Petrobras itself). The system leverages Generative Artificial Intelligence and advanced Information Retrieval techniques to transform vast textual databases into actionable knowledge, addressing critical industry challenges such as rapid and precise access to technical information across millions of records. Cortex is currently operational across six strategically significant domains, namely Health, Environment, and Safety (SMS); Operations and Projects; Research, Development, and Innovation (PD&I); Compliance; Knowledge Management; and Planning. 
+
+A key differentiator of Cortex is its role as an enabler for human specialists, amplifying, rather than replacing, their expertise. Technology substantially increases both the quality and quantity of professional outputs, making operations safer and more efficient. It allows human capital to focus on strategic and optimisation aspects, while AI handles intensive information search and processing tasks. 
+
+Technologically, Cortex integrates large-scale language models (LLMs) with heterogeneous corporate databases, enabling natural language queries with precise and contextualised answers. The system employs semantic embeddings to vectorise and interpret decades of technical data (reports, standards, lessons learned), surpassing traditional keyword search methods. The architecture of Cortex comprises several key components designed to ensure robustness, precision, and scalability. It features a data processing pipeline tailored to accommodate a variety of corporate sources, including well data, SMS records, Daily Drilling Reports (DDRs), PD&I documentation, standards, and operational schedules. 
+
+Contextual ranking algorithms are employed to optimise information retrieval specifically for well construction and maintenance activities. To support auditability and governance, the system incorporates comprehensive traceability mechanisms. Additionally, Cortex utilises intelligent pre-selection techniques to identify the most relevant knowledge bases according to the context of each query and enforces granular security and access controls to maintain compliance with corporate policies and safeguard sensitive information. 
+
+Cortex goes beyond simple Q&A, implementing autonomous agents capable of high-value tasks such as reviewing lessons learned, analysing technical alerts, planning operational sequences, and supporting intervention planning. Notably, it can generate database queries (text-to-SQL), allowing users to request complex visual analyses (trend charts, performance comparisons, temporal visualisations) in natural language, even without programming expertise. 
+
+The project has received Petrobras' highest internal recognition for transformative projects, the Petrobras Pride Award, validating its strategic impact and effectiveness. Scientifically, Cortex has produced four academic publications, including a Qualis A1 journal article, and it is referenced in major industry conferences. 
+
+Cortex’s immediate operational applicability spans from technical queries to complex strategic analyses. Engineers can consult lessons learned from similar wells before operations, managers can quickly access SMS alerts for specific equipment, and planners can optimise schedules based on complete operational history. The system demonstrated a 77% accuracy rate in expert tests, with full success in 70.8% of queries and partial correctness in 16.7%. All answers are fully traceable to their original sources, ensuring operational confidence in critical decision-making. 
+
+The rapid evolution of artificial intelligence (AI), particularly Generative AI and Large Language Models (LLMs), has transformed knowledge management and decision-making processes across multiple industries. In the oil and gas sector, the complexity and volume of technical documentation, operational reports, and regulatory standards present unique challenges for information retrieval, synthesis, and application in daily operations. Traditional search and document management systems, often reliant on keyword-based queries, struggle to address semantic richness, domain-specific jargon, and contextual dependencies inherent in well construction and related activities. 
+
+In summary, Cortex establishes itself as a reference for digital transformation in Brazil’s energy sector, with economic, social, environmental, and strategic impacts benefiting not only Petrobras but the entire national ecosystem of energy, research, and technological innovation. 
+
+Generative AI and Retrieval-Augmented Generation (RAG) 
+
+Generative AI, especially LLMs such as GPT-4 and its successors, has demonstrated remarkable capabilities in understanding, summarising, and generating human-like text. However, its effectiveness in industrial contexts depends on grounding responses in reliable, domain-specific data. Retrieval-Augmented Generation (RAG) architectures address this by combining LLMs with external knowledge bases, enabling models to retrieve relevant documents and cite sources directly in their answers. This approach mitigates common issues such as hallucinations (factually incorrect outputs) and enhances user trust through traceability. 
+
+Recent studies in the oil and gas domain have explored RAG for automating the extraction of insights from Daily Drilling Reports (DDRs), generating technical summaries, and supporting operational decision-making. Multi-agent architectures, where specialised agents handle distinct knowledge domains (e.g., safety, compliance, operations), have shown improved accuracy in complex Q&A tasks, even at the cost of increased computational resources. The integration of semantic embeddings, vector representations capturing the meaning and relationships within technical texts, further enhances the relevance and precision of search results. 
+
+Applications for Oil & Gas: Current Landscape 
+
+Despite the promise of these technologies, field evidence of their impact in large-scale, real-world deployments remains limited. Most published work focuses on proof-of-concept systems, pilot studies, or narrow use cases such as incident classification, report generation, or asset data enrichment. For example, Li et al. (2025) and Ispayev et al. (2024) demonstrated the use of RAG and computer vision to automate report generation and asset data enrichment, saving thousands of hours of manual work. Matheus et al. (2025) and Asif et al. (2024) applied RAG systems to support real-time drilling operations and multi-label classification in DDRs, achieving accuracy above 90% and surpassing traditional methods. 
+
+However, there is a notable gap in the literature regarding the quantification of business benefits, safety improvements, and organisational transformation resulting from the adoption of Generative AI copilots in enterprise environments. Key questions remain unanswered: How do these systems affect productivity, decision quality, and risk mitigation in daily operations? What are the mechanisms by which AI copilots amplify human expertise, and what barriers exist to their effective integration? 
+
+The Cortex Platform: Advancing the Frontier 
+
+Cortex represents a significant advancement in this field. It is one of the first production-grade platforms to systematically integrate RAG with multi-million-document corporate databases, covering domains such as SMS (Health, Environment, Safety), Operations, PD&I, Compliance, Knowledge Management, and Planning. Cortex enables natural language queries, provides fully traceable answers with citations to original sources, and supports advanced functionalities such as text-to-SQL for generating visual analytics from conversational prompts. 
+
+The architecture of the Cortex platform integrates several advanced components that collectively enhance its functionality and reliability. It employs semantic embeddings to enable contextual search across decades of technical documentation, thereby improving the relevance and precision of retrieved information. The system also incorporates autonomous agents, each specialised in executing high-value tasks such as reviewing lessons learned, analysing technical alerts, and supporting operational planning. To ensure compliance with corporate governance standards, Cortex enforces granular access control and robust security protocols. Furthermore, it features automated data ingestion pipelines that facilitate the continuous updating of its knowledge bases, ensuring that the system remains current and responsive to evolving operational needs. 
+
+Research Gaps and Opportunities 
+
+While Cortex and similar platforms mark a paradigm shift in digital transformation for the oil and gas sector, rigorous comparative studies quantifying their benefits, mechanisms, and limitations are still lacking. There remains a pressing need for original research that rigorously examines the impact of AI-driven knowledge management systems such as Cortex. Specifically, studies should compare outcomes between intensive and non-intensive users operating within matched organisational contexts, to assess differential effects. It is equally important to identify and elucidate the mechanisms through which AI copilots enhance productivity, decision-making quality, and operational safety. Furthermore, research must address the organisational, technical, and cultural factors that influence both the adoption and the effectiveness of such technologies. Actionable recommendations are also required to guide the scaling and optimisation of AI-enabled knowledge management practices. This project seeks to address these gaps by undertaking a methods, field-based comparative study of Cortex within Petrobras, thereby generating insights of relevance to both academic and industry stakeholders. 
+
+It is equally important to recognise the potential risks associated with the widespread adoption of AI copilots in knowledge-intensive environments. While these systems can undoubtedly improve efficiency and decision-making, excessive reliance on AI-generated outputs may gradually erode critical thinking and professional judgement among engineers. Because generative models produce responses that are linguistically polished and contextually convincing, they can create a misleading sense of certainty even when the underlying information is incomplete or inaccurate. Although traceability and source citations help mitigate this risk, they do not guarantee that users will verify the validity or relevance of the referenced material. Moreover, the long-term implications of continuous AI assistance for organisational learning and the development of domain expertise remain largely unexplored. There is a need to examine whether persistent dependence on AI copilots could weaken cognitive skills, reduce experiential learning, and alter decision-making cultures within high-reliability organisations. Addressing these concerns calls for a balanced approach that combines technological innovation with strong governance, comprehensive training, and mechanisms that preserve human oversight and critical evaluation. 
+
+
+
+RESEARCH QUESTIONS 
+
+Main question 
+
+What measurable benefits, values, performance gains, potential risks, and trade-offs does the Generative AI system Cortex deliver to knowledge-intensive processes in Petrobras’ well construction domain?Secondary questions 
+
+How do perceived and observed benefits differ between (i) intensive Cortex users within the group related to contracting processes in well construction and (ii) a matched control group of Cortex users outside this group? 
+
+Which mechanisms (e.g., faster knowledge retrieval, improved decision quality) mediate these benefits? 
+
+To what extent can results be extrapolated to adjacent processes across well construction (operations/projects, SMS, PD&I, conformity, planning)? 
+
+What organisational and data-governance factors condition the impact (e.g., data freshness, user training, access profiles)? 
+
+
+
+RATIONALE & ORIGINALITY 
+
+The application of Generative AI copilot systems to oil and gas decision processes is recent, with limited empirical evidence on realised benefits in industrial settings. Cortex is a production-grade RAG/LLM platform across multiple knowledge domains, with documented accuracy, traceability, and early operational uptake, an opportunity for an original, comparative outcomes study within a live enterprise environment. 
+
+The deployment of Generative AI copilot systems in the oil and gas industry marks a significant technological and organisational shift yet remains a recent phenomenon with limited empirical validation in real-world, large-scale industrial settings. While the potential of Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) architecture has been widely discussed in academic and technical literature, most documented applications are either experimental, restricted to pilot projects, or focused on narrow use cases such as document summarisation, incident classification, or asset data enrichment. 
+
+The Need for Rigorous, Field-Based Evidence 
+
+Despite the rapid advances in AI capabilities, there remains a notable gap in the literature regarding the quantification of realised benefits, value creation, and operational gains from Generative AI copilots. Most existing studies rely on simulated environments, small datasets, or anecdotal evidence, which limit their generalisability and practical relevance. There is a pressing need for original research that systematically evaluates the effects of Generative AI copilots in live enterprise contexts, using robust comparative designs. 
+
+Comparative Outcomes Study: Advancing the State of the Art 
+
+This project leverages the unique context of Cortex’s deployment to design an original, comparative outcomes study within a live enterprise environment. By comparing intensive users with a matched control group comprising individuals from other well construction domains, the research seeks to generate a nuanced understanding of Cortex’s impact. It aims to quantify differences in both perceived and observed benefits, including gains in productivity and improvements in decision quality. The study will also identify the underlying mechanisms that mediate these benefits, such as accelerated knowledge retrieval, enhanced grounding of responses, and improved traceability. In addition, it will explore the organisational and governance factors that condition the effectiveness of the platform, including data freshness, user training, and access profiles. Finally, the research intends to extrapolate its findings to adjacent processes and domains, offering actionable recommendations for the scalable implementation of AI-driven knowledge management solutions. 
+
+The approach, combining surveys, standardised task evaluations, system usage analytics, and qualitative interviews, will enable both effect estimation and explanation. This design addresses the limitations of prior work by grounding analysis in real operational data, user experiences, and process-level indicators. 
+
+Originality and Contribution 
+
+The originality of this research is reflected in several dimensions. Firstly, it adopts an empirical approach conducted within a live, large-scale industrial environment, thereby moving beyond the limitations of simulations and pilot studies. Secondly, its comparative design enables a direct contrast between intensive and non-intensive users, while controlling for organisational context to ensure analytical rigour. Thirdly, the study offers a high degree of generalisability, generating insights that are pertinent to both academic and industry audiences. These findings are expected to inform future deployments of AI copilots. By systematically evaluating the realised benefits, values, and gains from Cortex, this project will contribute to the advancement of both theory and practice in digital transformation, AI adoption, and knowledge management in the oil and gas industry. 
+
+
+
+PROJECT BACKGROUND, RELEVANCE, AND DELIMITATION 
+
+The expected contribution is a rigorous evaluation linking user-level outcomes (time saved, decision confidence, safety-relevant retrieval) and process-level indicators (cycle time, NPT-related insights surfaced, rework) to platform use. 
+
+Background: Well Construction and Knowledge Management Challenges 
+
+Well construction in the oil and gas industry encompasses a complex set of activities, including drilling, completion, and abandonment. These processes are knowledge-intensive, safety-critical, and highly regulated, requiring the integration of vast amounts of technical data, operational experience, and compliance standards. The success of well construction projects depends not only on engineering expertise but also on the ability to access, interpret, and apply lessons learned, historical reports, and best practices in real time. 
+
+Traditionally, knowledge management in this domain has relied on manual document searches, siloed databases, and keyword-based retrieval systems. Such approaches are increasingly inadequate given the exponential growth of data, the semantic complexity of technical language, and the need for rapid, evidence-based decision-making. The emergence of Generative AI platforms, such as Cortex, offers a transformative opportunity to address these challenges by enabling natural language queries, contextual information retrieval, and automated synthesis of insights across millions of records. 
+
+Relevance: Strategic Importance for Petrobras and the Sector 
+
+Petrobras, as a leading operator in deepwater and complex well construction environments, faces unique demands for operational excellence, safety, and innovation. The deployment of Cortex within Petrobras carries strategic significance for several key reasons. Firstly, in terms of operational efficiency, the platform has the potential to substantially reduce the time required to locate relevant technical information, lessons learned, and safety alerts. This acceleration of decision-making processes directly contributes to the reduction of non-productive time (NPT). Secondly, Cortex enhances decision quality and safety by delivering traceable, context-rich responses grounded in corporate knowledge bases. This is particularly valuable in contracting and planning activities, where risk mitigation is critical. Thirdly, the initiative aligns with Petrobras’s broader digital transformation agenda, positioning the company as a pioneer in the industrial application of Generative AI for process optimisation and knowledge management. Insights from this project can represent the expansion of AI copilots to other domains within Petrobras and across the oil and gas sector, fostering a culture of innovation and continuous improvement. 
+
+Delimitation: Comparative Study Design and Scope 
+
+To evaluate the benefits and mechanisms of Cortex, the research project will adopt a comparative design focused on two distinct user groups within Petrobras: 
+
+Contracting Group (Treatment): Professionals engaged in contracting activities in well construction who are intensive users of Cortex. This group is expected to experience the most pronounced benefits due to the high frequency and complexity of information retrieval tasks inherent in contracting workflows. 
+
+Non-Contracting Group (Control): Cortex users from other well construction sub-processes (e.g., operations, compliance, planning). 
+
+By delimiting the study to specific groups within the same macro domain of well construction, the project ensures both comparability and contextual relevance of its findings. The evaluation will examine user-level outcomes such as time saved in information retrieval, increased confidence in decision-making, improved access to safety-relevant data, and perceptions of usability and trust. In parallel, it will assess process-level indicators including the cycle time for contracting and planning activities, the surfacing of insights related to non-productive time (NPT), the rate of rework, and the extent to which lessons learned are integrated into operational workflows. 
+
+Expected Contribution 
+
+This research project is structured to produce actionable evidence regarding the realised benefits, value creation, and performance gains associated with the deployment of Generative AI copilots in well construction. Its specific contributions include the empirical quantification of improvements in productivity, decision quality, and safety outcomes directly attributable to the Cortex platform. The study also aims to map the mechanisms through which AI copilots amplify human expertise and enhance organisational performance. In addition, it will offer best practice recommendations concerning training, governance, and the scalable implementation of AI-driven knowledge management systems. Finally, the project is expected to generate impact across both academic and industrial spheres, advancing theoretical understanding and practical application in the domains of digital transformation, AI adoption, and operational excellence within the oil and gas sector. 
+
+By focusing on well construction, an area where knowledge management is both critical and challenging, the research project addresses a high-impact problem with direct relevance to Petrobras’s strategic objectives and the broader industry. 
+
+
+
+
+
+THEORETICAL FRAMEWORK 
+
+The theoretical foundation of this research will integrate four complementary perspectives: the Knowledge-Based View (KBV) of the firm, socio-technical systems theory, technology acceptance and use models, and literature on decision quality and high-reliability organising. Together, these frameworks provide a robust lens for understanding how Generative AI copilots like Cortex can transform knowledge-intensive processes in well construction, and how organisational, technical, and human factors mediate their impact. 
+
+Knowledge-Based View (KBV) of the Firm 
+
+The KBV posits that organisational performance and competitive advantage arise from the firm's ability to create, store, share, and apply both tacit and explicit knowledge (Grant, 1996; Spender, 1996). In knowledge-intensive sectors such as oil and gas, the accessibility and actionability of technical expertise, lessons learned, and operational data are critical for innovation and operational excellence. 
+
+Cortex functions as a knowledge access amplifier, bridging the gap between vast, distributed corporate repositories and the daily needs of engineers, planners, and managers. By enabling natural language queries, contextual retrieval, and traceable answers, Cortex transforms latent organisational knowledge into actionable insights. As Grant (1996) argues, ‘the critical task of the organisation is to integrate specialist knowledge to produce goods and services’. In this sense, Cortex operationalises the KBV by making specialist knowledge rapidly accessible and directly applicable to well construction decisions. 
+
+Socio-Technical Systems Perspective 
+
+Socio-technical systems theory emphasises that organisational outcomes are shaped by the alignment of technological tools, data governance, workflows, and human roles (Trist & Bamforth, 1951; Bostrom & Heinen, 1977). The successful adoption and impact of AI copilots depend not only on technical capabilities but also on how these systems are embedded within organisational routines, access policies, and trust mechanisms. 
+
+In the context of Cortex, benefits emerge when the platform is integrated with existing workflows, supported by robust data governance (e.g., access control, traceability), and aligned with user roles and responsibilities. Traceability, the ability to verify the source of information, plays a pivotal role in building trust and facilitating adoption. Thus, the study examines how alignment between Cortex’s features and organisational context influences outcomes. 
+
+Technology Acceptance & Use 
+
+Models of technology acceptance, such as the Unified Theory of Acceptance and Use of Technology (UTAUT) and the Technology Acceptance Model (TAM), identify key determinants of adoption: performance expectancy, effort expectancy, social influence, and facilitating conditions (Venkatesh et al., 2003; Davis, 1989). Usability and transparency, particularly the ability to trace answers to original sources, are hypothesised to drive user trust, confidence, and sustained use. 
+
+In this research, Cortex’s usability (ease of query, intuitive interface), transparency (citations to originals), and facilitating conditions (training, management support) will mediate the pathway from initial adoption to realised benefits. As Venkatesh et al. (2003) state, ‘performance expectancy is the strongest predictor of intention to use a technology’. The study will measure these constructs through surveys and interviews, linking them to observed outcomes in productivity, decision quality, and safety. 
+
+Decision Quality & High-Reliability Organising 
+
+In safety-critical industries, the quality of decisions depends on timely access to lessons learned, alerts, and standards, as well as the ability to anticipate and mitigate risks (Weick & Sutcliffe, 2007; Reason, 1997). High-reliability organisations (HROs) are characterised by their capacity to learn from past incidents, maintain situational awareness, and apply best practices consistently. 
+
+Cortex supports high-reliability organising by surfacing relevant safety alerts, lessons learned, and compliance norms at the point of need. This reduces latent errors and strengthens pre-task briefings, contributing to safer and more consistent operations. As Weick & Sutcliffe (2007) argue, ‘reliability is achieved not by eliminating errors but by detecting, containing, and recovering from them’. The platform’s traceability and contextual retrieval features are designed to facilitate this process. 
+
+Integrative Logic Model 
+
+Synthesising these perspectives, the following logic model (Figure 1) is proposed, moderated by data freshness, user maturity, and governance. 
+
+Diagrama 1, Diagrama SmartArt 
+
+Figure 1: Complementary theoretical perspectives underpinning the research framework 
+
+The conceptual model positions Cortex as the central enabler of improved organisational performance through a sequence of interrelated mechanisms. By accelerating information retrieval, the platform reduces time-to-insight, allowing users to access relevant technical data quickly and efficiently. Its capacity for better grounding ensures that responses are based on reliable, traceable sources, thereby increasing confidence and decision quality. Additionally, the provision of visual and SQL-based outputs supports data-driven decision-making through automated analytics and intuitive visualisations. These mechanisms collectively lead to enhanced decision quality and productivity, which in turn translate into process-level gains such as reduced cycle times, lower non-productive time (NPT), improved safety compliance, and higher-quality deliverables. The strength of these relationships is moderated by factors including the freshness of data within knowledge bases, the maturity of users in leveraging Cortex effectively, and governance structures encompassing access policies and training. 
+
+
+
+METHOD 
+
+This research will adopt a comparative design to evaluate the benefits, mechanisms, and limitations of the Cortex Generative AI copilot in well construction processes at Petrobras. The approach integrates methods to enable both effect estimation (what changes) and explanation (how and why changes occur). 
+
+The research design incorporates several key components to ensure methodological rigour and relevance. It will employ an experimental group comparison, contrasting two matched groups of Cortex users: an intensive-use group comprising contracting professionals engaged in contracting activities, and a control group drawn from other well construction sub-processes such as operations, compliance, and planning. To capture perceptions and attitudes, standardised survey instruments will be administered to measure perceived benefits, adoption climate, usability, and trust. In addition, task time and quality assessments will be conducted, requiring participants to complete realistic and standardised tasks, with performance evaluated against predefined benchmarks. Complementing these quantitative measures, qualitative insights will be gathered through semi-structured interviews and the analysis of documented real-world use cases, providing a comprehensive understanding of user experience and organisational impact. 
+
+This triangulation of methods will ensure that findings are robust, comprehensive, and actionable, addressing both the ‘what’ and the ‘why’ of Cortex’s impact. 
+
+
+
+WORKING PLAN 
+
+Figure 2 below illustrates the overall working plan for the postdoctoral project. The timeline provides a clear visual representation of the tasks and milestones distributed across the twelve-month period, highlighting the sequential and overlapping activities required to achieve the project objectives. 
+
+Figure 2: Timeline of the working plan for the postdoctoral projectThe following working plan outlines the structure and timeline description. 
+
+Phase 1: Bibliographic Research (Month 1) 
+
+Objectives: 
+
+Conduct a comprehensive literature review, considering Scopus, OnePetro, and Web of Science. 
+
+Activities: 
+
+Search and review articles from JCR/Scopus-indexed journals and major conferences. 
+
+Build an annotated bibliography and conceptual framework. 
+
+Identify key theoretical models and methodological references. 
+
+Deliverables: 
+
+Literature review dossier. 
+
+Reference list for the manuscript. 
+
+ 
+
+Phase 2: Field Research (Months 2–7) 
+
+Objectives: 
+
+Execute the study as designed. 
+
+Collect quantitative and qualitative data from Petrobras professionals. 
+
+Activities: 
+
+Months 2–3: Recruitment, baseline survey, participant metadata compilation. 
+
+Months 3–7: Conduct surveys and interviews, document use cases, thematic analysis. 
+
+Deliverables: 
+
+Clean dataset (survey, task, analytics, interviews). 
+
+Temporary results deck for stakeholders. 
+
+ 
+
+Phase 3: Manuscript Preparation and Submission (Months 8–12) 
+
+Objectives: 
+
+Analyse data, integrate findings, and prepare a manuscript for submission to a JCR or Scopus-indexed journal. 
+
+Activities: 
+
+Months 8–9: Quantitative and qualitative analysis; robustness checks; mechanism mapping. 
+
+Months 9–10: Draft manuscript (introduction, methods, results, discussion, conclusion). 
+
+Months 10–11: Internal and external peer review; incorporate feedback. 
+
+Months 11–12: Finalise and submit manuscript to selected journal. 
+
+Deliverables: 
+
+Manuscript ready for submission (target: indexed journal). 
+
+Final results report for Petrobras and UiS. 
+
+ 
+
+EXPECTED RESULTS 
+
+A primary expected outcome of this research is the empirical quantification of productivity gains and improvements in decision quality directly attributable to Cortex. These gains will be assessed across several dimensions. First, time saved will be measured through reductions in time-to-insight for queries, data retrieval, and information access. This metric will be benchmarked against baseline search methods and compared across different user groups. Second, answer quality will be evaluated in terms of completeness, correctness, and relevance of responses. The incorporation of traceable citations and contextual retrieval is anticipated to enhance both the reliability and the practical utility of the information provided. 
+
+Another critical focus of the study is the role of traceability-driven trust as a determinant of adoption. Traceability is hypothesised to be a key driver of user trust, confidence, and sustained engagement with AI copilots. To explore this, the research will assess the frequency and impact of citation usage within decision-making processes, analyse user perceptions of trust, transparency, and reliability through surveys and interviews, and map the relationship between traceability features and the broader adoption climate, including factors such as training adequacy and management support. By demonstrating how traceability influences user behaviour and organisational outcomes, the study aims to contribute to a deeper understanding of technology acceptance in safety-critical industries. 
+
+Finally, based on the findings, the project will develop practical recommendations to optimise the deployment and use of Cortex. These will include best practices for training, encompassing onboarding strategies, continuous learning, and user support, to maximise benefits. Governance guidelines will also be proposed, covering access control, data security, and compliance measures to ensure responsible and effective utilisation of AI copilots. In addition, strategies for maintaining data pipeline freshness will be outlined, focusing on automated data ingestion, quality assurance, and the continuous updating of knowledge bases. Collectively, these recommendations will provide actionable insights for scaling and sustaining AI-driven knowledge management solutions within complex industrial environments. 
+
+These recommendations will be tailored to the operational realities of Petrobras and generalisable to other organisations seeking to implement AI-driven knowledge management solutions. 
+
+ACADEMIC AND INDUSTRY CONTRIBUTIONS 
+
+Given the originality and scale of the study, its expected contributions are substantial and span both academic and industry domains. From an academic perspective, the research will advance theoretical understanding in information systems (IS), human-computer interaction (HCI), and operations management. It will provide empirical validation of frameworks related to technology acceptance, socio-technical alignment, and high-reliability organising within the context of Generative AI. Furthermore, the findings are intended for publication in peer-reviewed journals indexed in JCR or Scopus, thereby contributing to the global discourse on digital transformation in the oil and gas sector. 
+
+From an industry standpoint, the study will deliver evidence-based insights for decision-makers at Petrobras and other energy companies. It will offer practical guidance on scaling AI copilots, optimising training and governance, and integrating digital tools into operational workflows. In addition, the research will demonstrate the value of traceability, data freshness, and mechanism mapping as critical enablers of safe and efficient operations. These contributions are expected to inform not only Petrobras’s strategic direction but also the broader energy sector and academic community. 
+
+By systematically evaluating the realised benefits, values, and gains derived from Cortex, the research will support evidence-based digital transformation initiatives, foster a culture of innovation and continuous improvement, and enable safer, more efficient, and more reliable well construction processes. The resulting framework and practical recommendations will be generalisable, serving as a reference for future research and for the implementation of AI copilots in other knowledge-intensive and safety-critical domains. 
+
+INTENDED RESEARCH OUTPUTS 
+
+To maximise dissemination and impact, the project will produce: 
+
+Peer-reviewed paper: Targeted at journals in information systems, software engineering, HCI, petroleum engineering, or energy engineering (JCR or Scopus-indexed). 
+
+Executive report: A comprehensive summary for Petrobras and UiS. 
+
+FUNDING AND RESEARCH RESOURCES 
+
+The present research project is being conducted in a context of significant market volatility, where fluctuations in oil prices exert direct pressure on budgets allocated for innovation and research activities. Consequently, Petrobras, like many companies in the sector, faces strict financial constraints that limit the possibility of securing external funding for academic or applied research. As a result, no external funding will be allocated to this project. 
+
+All resources required for the execution of the study will be provided internally by Petrobras, leveraging existing assets and teams dedicated to the development and operation of the Cortex platform. The research will rely on the expertise and availability of Petrobras professionals who are already engaged in the development, maintenance, and continuous improvement of Cortex. These teams have deep domain knowledge and technical skills, ensuring the integrity and relevance of the study. In addition, the principal investigator and associated researchers will dedicate their time and expertise to the design, execution, and analysis of the project without the need for additional external funding. 
+
+Where necessary, the project may utilise existing third-party contracts maintained by Petrobras, such as those for data processing, technical support, or specialised consulting. These contracts are already in place and will be used within their current scope, without incurring additional costs. The University of Stavanger (UiS) will also participate in the project exclusively through academic supervision and guidance provided by the designated professor. No financial resources or external funding from UiS will be required or requested. This approach ensures that the research remains both feasible and sustainable within the current economic climate, while maintaining the highest standards of scientific rigour and operational relevance. 
+
+BIBLIOGRAPHY (SELECTED SOURCES) 
+
+Asif, W., Al Bahri Al Salt, N., Al Sulaimani, T., & Al Noufli, N. (2024). Multi-Label Classification of Daily Drill Reports (DDR) Utilising Large Language Models (LLMs). In, D011S008R004. https://doi.org/10.2118/221870-MS 
+
+Bostrom, R. P., & Heinen, J. S. (1977). MIS problems and failures: A socio-technical perspective. MIS Quarterly, 1(3), 17–32. https://doi.org/10.2307/249019 
+
+Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. MIS Quarterly, 13(3), 319–340. https://doi.org/10.2307/249008 
+
+Grant, R. M. (1996). Toward a knowledge-based theory of the firm. Strategic Management Journal, 17(S2), 109–122. https://doi.org/10.1002/smj.4250171110 
+
+Ispayev, S., Khamzin, N., Revkova, O., Uanassov, B., & Sison, M. (2024). Asset and Materials Data Enrichment Automation Using Computer Vision and Large Language Model. In. https://doi.org/10.2118/223468-MS 
+
+Li, P., Liu, Y., Zhou, J., Zhang, J., & Zhou, Y. (2025). A Report Generation System for Well Logging Industry Based on Large Language Model and Retrieval Augmented Generation. In, D012S004R002. https://doi.org/10.2523/IPTC-24775-EA 
+
+Matheus, J., Tiwari, S., Szemat, W., & Amaya, D. (2025). Revolutionising Real-Time Drilling: Leveraging Large Language Models and Retrieval-Augmented Generation for Enhanced Operational Efficiency. In, D011S007R008. https://doi.org/10.4043/35742-MS 
+
+Reason, J. (1997). Managing the Risks of Organisational Accidents. Ashgate. 
+
+Spender, J. C. (1996). Making knowledge the basis of a dynamic theory of the firm. Strategic Management Journal, 17(S2), 45–62. https://doi.org/10.1002/smj.4250171106 
+
+Trist, E. L., & Bamforth, K. W. (1951). Some social and psychological consequences of the longwall method of coal-getting. Human Relations, 4(1), 3–38. https://doi.org/10.1177/001872675100400101 
+
+Venkatesh, V., Morris, M. G., Davis, G. B., & Davis, F. D. (2003). User acceptance of information technology: Toward a unified view. MIS Quarterly, 27(3), 425–478. https://doi.org/10.2307/30036540 
+
+Weick, K. E., & Sutcliffe, K. M. (2007). Managing the Unexpected: Resilient Performance in an Age of Uncertainty (2nd ed.). Jossey-Bass. 
+
+(Additional academic references and domain-specific works will be incorporated at the manuscript stage, following bibliographic research within the scientific bases) 
+
+ 
