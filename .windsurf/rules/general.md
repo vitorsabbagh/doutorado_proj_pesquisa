@@ -1,5 +1,6 @@
 ---
-trigger: always_on
+trigger: model_decision
+description: If you need to understand the overall objective of this project.
 ---
 
 Este é meu projeto de pesquisa de doutorado. Será na área de ciência da computação, na área de agentes baseados em LLM.
