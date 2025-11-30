@@ -35,16 +35,16 @@ A evolução recente dos modelos de linguagem marca uma transição da IA conceb
 \wagner{As referências \textbf{tem} que estar no texto usando cite ou citep. Mais ainda, use o bibtex para evitar ter referências desformatadas ou incompletas.}
 \vitor{feito}
 
-Contudo, a rápida adoção dessa tecnologia na indústria, especialmente em setores de alto risco como Óleo e Gás (O\&G), supera nossa compreensão de seus reais limites \wagner{acho que esse tom de O\&G como cenário típico fica melhor, mas precisamos de referências que falem desse assunto}. O entusiasmo com as capacidades em tarefas ``dentro da fronteira'' (\emph{inside the frontier}) muitas vezes ofusca a existência de tarefas ``fora da fronteira'' (\emph{outside the frontier}), onde a IA falha \cite{dell2023navigating}. 
+Contudo, a rápida adoção dessa tecnologia na indústria, especialmente em setores de alto risco como Óleo e Gás (O\&G), supera nossa compreensão de seus reais limites \wagner{acho que esse tom de O\&G como cenário típico fica melhor, mas precisamos de referências que falem desse assunto}. O entusiasmo com as capacidades em tarefas ``dentro da fronteira'' muitas vezes ofusca a existência de tarefas ``fora da fronteira'', onde a IA falha \cite{dell2023navigating}. 
 \wagner{Algum artigo nisso? Senão podemos converter em sub-produto do trabalho a caracterização de picos e vales}
 \vitor{Nenhum artigo com essa caracterização. Acho melhor usarmos a mesma nomeclatura do artigo da HBS, "inside the frontier" e "outside the frontier". Fiz o ajuste no projeto. }
 
-\cite{dell2023navigating} introduziu o conceito de ``Fronteira Tecnológica Irregular'' (Jagged Frontier) para descrever como o desempenho da IA é irregular, alternando entre tarefas ``dentro da fronteira'' (\emph{inside the frontier}) e tarefas ``fora da fronteira'' (\emph{outside the frontier}). No entanto, este estudo focou na produtividade de \emph{humanos usando IA} em tarefas de consultoria.
+\cite{dell2023navigating} introduziu o conceito de ``Fronteira Tecnológica Irregular'' (Jagged Frontier) para descrever essa oscilação de desempenho. No entanto, este estudo focou na produtividade de \emph{humanos usando IA} em tarefas de consultoria.
 
 A lacuna que este projeto busca abordar é a falta de conhecimento a respeito da dita fronteira irregular para agentes autônomos em domínios de engenharia de alta complexidade. 
 \wagner{tem mais algum além de engenharia de poços? quais as refs?} 
 \vitor{inserido abaixo}
-Embora estudos recentes tenham documentado limitações similares em outras áreas críticas como medicina \cite{huang2025medical, hatem2023hallucinations}, direito \cite{li2024lawyer, gogani2025tax}, engenharia civil \cite{frontiers2025civil, zheng2025aec}, finanças \cite{chen2024financial} e sistemas \emph{safety-critical} em aeroespacial \cite{nasa2025llm, liu2024safetycritical}, não se sabe que tipo de tarefas compreendidas na construção de poços de petróleo (um domínio em que falhas podem frequentemente custar vidas e/ou prejuízos materiais relevantes) estariam ``dentro da fronteira'' (\emph{inside the frontier}) e quais estariam ``fora da fronteira'' (\emph{outside the frontier}) de performance e assertividade das ferramentas.
+Embora estudos recentes tenham documentado limitações similares em outras áreas críticas como medicina \cite{huang2025medical, hatem2023hallucinations}, direito \cite{li2024lawyer, gogani2025tax}, engenharia civil \cite{frontiers2025civil, zheng2025aec}, finanças \cite{chen2024financial} e sistemas \emph{safety-critical} em aeroespacial \cite{nasa2025llm, liu2024safetycritical}, não se sabe que tipo de tarefas compreendidas na construção de poços de petróleo (um domínio em que falhas podem frequentemente custar vidas e/ou prejuízos materiais relevantes) estariam ``dentro da fronteira'' e quais estariam ``fora da fronteira'' de performance e assertividade das ferramentas.
 \wagner{aqui acho que vale explicar um pouco mais o contexto de uso e como tarefas dentro e fora da fronteira se manifestariam no problema de engenharia de poços.}
 
 \wagner{um exemplo de como agentes LLM são usados em engenharia de poços seria bem ilustrativo}
@@ -81,18 +81,11 @@ tarefas da construção de poços offshore?
 \wagner{Achei as perguntas secundárias bem niveladas}
 \begin{itemize}
 \item
-  \textbf{(P2)} Quais características de uma tarefa (ex: necessidade de
-  raciocínio causal, dependência de dados físicos, conformidade
-  regulatória, planejamento temporal) definem se ela está ``dentro da fronteira'' (\emph{inside the frontier} -- sucesso do
-  agente) ou ``fora da fronteira'' (\emph{outside the frontier} -- falha do agente)?
+  \textbf{(P2)} Quais características de uma tarefa (ex: necessidade de raciocínio causal, dependência de dados físicos, conformidade regulatória, planejamento temporal) definem se ela está ``dentro da fronteira'' ou ``fora da fronteira''?
 \item
-  \textbf{(P3)} Como diferentes arquiteturas de agentes (ex: LLM
-  ``puro'' vs.~RAG vs.~Agentes de Planejamento) navegam por essa
-  fronteira?
+  \textbf{(P3)} Como diferentes arquiteturas de agentes (ex: LLM ``puro'' vs.~RAG vs.~Agentes de Planejamento) navegam por essa fronteira?
 \item
-  \textbf{(P4)} É possível desenvolver um \emph{framework} para
-  identificar tarefas ``fora da fronteira'' \emph{a priori}, permitindo a implantação segura
-  de agentes em tarefas ``dentro da fronteira''?
+  \textbf{(P4)} É possível desenvolver um \emph{framework} para identificar tarefas ``fora da fronteira'' \emph{a priori}, permitindo a implantação segura de agentes em tarefas ``dentro da fronteira''?
 \end{itemize}
 
 \wagner{Acrescentaria uma pergunta da aplicação desse framework em cenários relevantes e significativos}
