@@ -1,1 +1,9 @@
 .trash
+latex/main.aux
+latex/main.bbl
+latex/main.fdb_latexmk
+latex/main.fls
+latex/main.log
+latex/main.synctex.gz
+latex/vitor.aux
+latex/main.blg

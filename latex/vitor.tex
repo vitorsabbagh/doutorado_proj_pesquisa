@@ -1,6 +1,6 @@
 
 \title{Projeto de Pesquisa para Doutorado}
-\label{projeto-de-pesquisa-para-doutorado}}
+\label{projeto-de-pesquisa-para-doutorado}
 
 \author{Vitor Brandão Sabbagh}
 
@@ -9,7 +9,7 @@
 \maketitle
 
 %
-\section{Título}\label{tuxedtulo}
+\section{Título}\label{tuxedtulo} 
 
 
 
@@ -28,38 +28,24 @@ Tasks)}
 
 
 
-A evolução recente dos modelos de linguagem marca uma transição da IA
-concebida predominantemente como ferramenta de consulta pontual para sua
-configuração como agente autônomo \wagner{ref?}. Nessa nova configuração, sistemas de
-agentes são capazes de decompor problemas, planejar e executar tarefas
-de múltiplos passos, articulando raciocínio, memória e uso de
-ferramentas externas \wagner{ref?}. Na prática, essa transição se materializa em
-soluções comerciais de agentes autônomos, como Manus AI, OpenAI
-Operator, OpenAI Deep Research e Genspark AI\wagner{Aqui podem ser referências ou footnotes, o que for mais prático. Por exemplo, se forem só as URLs, melhor que seja footnote.}, entre outras (ver
-referências na Seção 8).
+A evolução recente dos modelos de linguagem marca uma transição da IA concebida predominantemente como ferramenta de consulta pontual para sua configuração como agente autônomo \cite{ferrag2025review} \cite{ibm2024agents_} \wagner{ref?} \vitor{feito}. Nessa nova configuração, sistemas de agentes são capazes de decompor problemas, planejar e executar tarefas de múltiplos passos, articulando raciocínio, memória e uso de ferramentas externas \cite{yao2023react} \cite{lewis2020retrieval}  \wagner{ref?} \vitor{feito}. Na prática, essa transição se materializa em soluções comerciais de agentes autônomos, como Manus AI \footnote{https://www.manus.ai/}, OpenAI Operator \footnote{https://openai.com/pt-BR/index/introducing-operator/}, OpenAI Deep Research \footnote{https://openai.com/pt-BR/index/introducing-deep-research/} e Genspark AI \footnote{https://www.genspark.ai/}.
+
+\wagner{Aqui podem ser referências ou footnotes, o que for mais prático. Por exemplo, se forem só as URLs, melhor que seja footnote.} \vitor{feito}, entre outras.
+
 \wagner{As referências \textbf{tem} que estar no texto usando cite ou citep. Mais ainda, use o bibtex para evitar ter referências desformatadas ou incompletas.}
+\vitor{feito}
 
-\vitor{teste}
+Contudo, a rápida adoção dessa tecnologia na indústria, especialmente em setores de alto risco como Óleo e Gás (O\&G), supera nossa compreensão de seus reais limites \wagner{acho que esse tom de O\&G como cenário típico fica melhor, mas precisamos de referências que falem desse assunto}. O entusiasmo com as capacidades em tarefas ``dentro da fronteira'' (\emph{inside the frontier}) muitas vezes ofusca a existência de tarefas ``fora da fronteira'' (\emph{outside the frontier}), onde a IA falha \cite{dell2023navigating}. 
+\wagner{Algum artigo nisso? Senão podemos converter em sub-produto do trabalho a caracterização de picos e vales}
+\vitor{Nenhum artigo com essa caracterização. Acho melhor usarmos a mesma nomeclatura do artigo da HBS, "inside the frontier" e "outside the frontier". Fiz o ajuste no projeto. }
 
-Contudo, a rápida adoção dessa tecnologia na indústria, especialmente em
-setores de alto risco como Óleo e Gás (O\&G), supera nossa compreensão
-de seus reais limites \wagner{acho que esse tom de O\&G como cenário típico fica melhor, mas precisamos de referências que falem desse assunto}. O entusiasmo com as capacidades de ``pico''
-(sucesso) muitas vezes ofusca a existência de ``vales'' (falhas). \wagner{Algum artigo nisso? Senão podemos converter em sub-produto do trabalho a caracterização de picos e vales}
+\cite{dell2023navigating} introduziu o conceito de ``Fronteira Tecnológica Irregular'' (Jagged Frontier) para descrever como o desempenho da IA é irregular, alternando entre tarefas ``dentro da fronteira'' (\emph{inside the frontier}) e tarefas ``fora da fronteira'' (\emph{outside the frontier}). No entanto, este estudo focou na produtividade de \emph{humanos usando IA} em tarefas de consultoria.
 
-\cite{dell2023navigating} introduziu o conceito de ``Fronteira Tecnológica
-Irregular'' (Jagged Frontier) para descrever como o desempenho da IA é
-irregular, alternando entre picos de competência super-humana e vales de
-falha. No entanto, este estudo focou na produtividade de \emph{humanos
-usando IA} em tarefas de consultoria.
-
-A lacuna que este projeto busca abordar é a falta de conhecimento a
-respeito da dita fronteira irregular para agentes autônomos em domínios
-de engenharia de alta complexidade \wagner{tem mais algum além de engenharia de poços? quais as refs?}. Não se sabe que tipo de tarefas
-compreendidas na construção de poços de petróleo (um domínio em que
-falhas podem frequentemente custar vidas e/ou prejuízos materiais
-relevantes) estariam nos ``picos'' e quais estariam nos ``vales'' de
-performance e assertividade das ferramentas.
-\wagner{aqui acho que vale explicar um pouco mais o contexto de uso e como tais vales e picos se manifestariam no problema de engenharia de poços.}
+A lacuna que este projeto busca abordar é a falta de conhecimento a respeito da dita fronteira irregular para agentes autônomos em domínios de engenharia de alta complexidade. 
+\wagner{tem mais algum além de engenharia de poços? quais as refs?} 
+\vitor{inserido abaixo}
+Embora estudos recentes tenham documentado limitações similares em outras áreas críticas como medicina \cite{huang2025medical, hatem2023hallucinations}, direito \cite{li2024lawyer, gogani2025tax}, engenharia civil \cite{frontiers2025civil, zheng2025aec}, finanças \cite{chen2024financial} e sistemas \emph{safety-critical} em aeroespacial \cite{nasa2025llm, liu2024safetycritical}, não se sabe que tipo de tarefas compreendidas na construção de poços de petróleo (um domínio em que falhas podem frequentemente custar vidas e/ou prejuízos materiais relevantes) estariam ``dentro da fronteira'' (\emph{inside the frontier}) e quais estariam ``fora da fronteira'' (\emph{outside the frontier}) de performance e assertividade das ferramentas.
+\wagner{aqui acho que vale explicar um pouco mais o contexto de uso e como tarefas dentro e fora da fronteira se manifestariam no problema de engenharia de poços.}
 
 \wagner{um exemplo de como agentes LLM são usados em engenharia de poços seria bem ilustrativo}
 
@@ -97,16 +83,16 @@ tarefas da construção de poços offshore?
 \item
   \textbf{(P2)} Quais características de uma tarefa (ex: necessidade de
   raciocínio causal, dependência de dados físicos, conformidade
-  regulatória, planejamento temporal) definem um ``pico'' (sucesso do
-  agente) ou um ``vale'' (falha do agente)?
+  regulatória, planejamento temporal) definem se ela está ``dentro da fronteira'' (\emph{inside the frontier} -- sucesso do
+  agente) ou ``fora da fronteira'' (\emph{outside the frontier} -- falha do agente)?
 \item
   \textbf{(P3)} Como diferentes arquiteturas de agentes (ex: LLM
   ``puro'' vs.~RAG vs.~Agentes de Planejamento) navegam por essa
   fronteira?
 \item
   \textbf{(P4)} É possível desenvolver um \emph{framework} para
-  identificar ``vales'' \emph{a priori}, permitindo a implantação segura
-  de agentes em tarefas de ``pico''?
+  identificar tarefas ``fora da fronteira'' \emph{a priori}, permitindo a implantação segura
+  de agentes em tarefas ``dentro da fronteira''?
 \end{itemize}
 
 \wagner{Acrescentaria uma pergunta da aplicação desse framework em cenários relevantes e significativos}
@@ -161,8 +147,8 @@ Este projeto possui relevância em três eixos:
   \textbf{Contribuição para a Indústria de O\&G (Prática):} Fornece o
   primeiro estudo rigoroso sobre o que agentes de IA podem (e,
   crucialmente, \emph{não podem}) fazer com segurança na engenharia de
-  poços. Isso desbloqueia ganhos de eficiência (em ``picos'') e previne
-  falhas catastróficas (em ``vales'').
+  poços. Isso desbloqueia ganhos de eficiência (em tarefas ``dentro da fronteira'') e previne
+  falhas catastróficas (em tarefas ``fora da fronteira'').
 \item
   \textbf{Originalidade:} A intersecção de Agentes LLM, a teoria da
   ``Jagged Frontier'' e o domínio de O\&G \emph{onshore/offshore} é
@@ -273,7 +259,7 @@ quantitativa e qualitativa}, dividida em quatro fases:
   desempenho} (da Fase 3).
 \item
   \textbf{Análise Qualitativa:} Análise de causa-raiz das falhas
-  (``vales''). O agente falhou por falta de conhecimento (RAG falho),
+  (tarefas ``fora da fronteira''). O agente falhou por falta de conhecimento (RAG falho),
   raciocínio (LLM falho) ou planejamento (arquitetura falha)?
 \item
   \textbf{Resultado:} O ``mapa'' da fronteira e o \emph{framework} de
